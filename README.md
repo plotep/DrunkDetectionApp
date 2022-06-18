@@ -21,5 +21,5 @@ The app has an animation to showcase the state change, as well as an option to t
 
 ### Authors
 
-#[Pawel Bielinski](https://github.com/plotep)
-#[Jamie Grant](https://github.com/James-C-G)
+[Pawel Bielinski](https://github.com/plotep),
+[Jamie Grant](https://github.com/James-C-G)
