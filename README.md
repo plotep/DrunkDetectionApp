@@ -8,8 +8,14 @@ The application is able to recognise when the user is drunk or not using a Tenso
 ### Customizability
 
 Different distress messages can be set by the user, as well as a calling feature and a location system based on the gps of the phone.
-![message](https://github.com/plotep/DrunkDetectionApp/blob/main/DrunkDetection/gitimages/settings_pg1.jpg)
+<p align="center">
+  <img src="https://github.com/plotep/DrunkDetectionApp/blob/main/DrunkDetection/gitimages/settings_pg1.jpg" />
+</p>
 
 ### Demonstration
-![showcasegif](https://github.com/plotep/DrunkDetectionApp/blob/main/DrunkDetection/gitimages/demonstration.gif)
+The app has an animation to showcase the state change, as well as an option to turn the detection on or off.
+
+<p align="center">
+  <img src="https://github.com/plotep/DrunkDetectionApp/blob/main/DrunkDetection/gitimages/demonstration.gif" />
+</p>
 ### Authors
