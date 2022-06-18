@@ -1,0 +1,68 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/emergency_header">
+        <EditTextPreference
+            android:maxLength="5"
+            android:defaultValue="Empty"
+            android:key="edit_emergency_number"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            app:useSimpleSummaryProvider = "true"
+            android:title="Emergency number" />
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:key="emergency_text_yesno"
+            app:summaryOff="@string/emergency_text_summary_off"
+            app:summaryOn="@string/emergency_text_summary_on"
+            app:title="@string/emergency_text" />
+
+        <SwitchPreferenceCompat
+            app:key="emergency_call"
+            app:dependency="emergency_text_yesno"
+            app:summaryOff="@string/emergency_summary_off"
+            app:summaryOn="@string/emergency_summary_on"
+            app:title="@string/emergency_call" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/custom_msg_header">
+
+        <SwitchPreferenceCompat
+            app:key="custom_message_set"
+            app:summaryOff="@string/custom_message_explain"
+            app:summaryOn="@string/custom_message_explain"
+            app:title="@string/custom_message_enable" />
+
+        <SwitchPreferenceCompat
+            app:dependency="custom_message_set"
+            app:key="attach_location"
+            app:summaryOff="@string/geo_location_enable_explain"
+            app:summaryOn="@string/geo_location_enable_explain"
+            app:title="@string/geo_location_enable" />
+        <EditTextPreference
+            android:defaultValue="Not set"
+            android:key="message_string"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            app:useSimpleSummaryProvider = "true"
+            android:title="@string/custom_message_enter" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/other_header">
+
+        <SwitchPreferenceCompat
+            app:key="sound_on_off"
+            app:summaryOff="@string/enable_sound_switch_explain"
+            app:summaryOn="@string/enable_sound_switch_explain"
+            app:title="@string/enable_sound_switch" />
+
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="reply"
+            app:title="@string/selct_profile"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

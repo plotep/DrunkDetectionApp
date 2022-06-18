@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll">Roll</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Preference Titles -->
+
+    <string name="sync_header">Emergency Contact Information</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Emergency number strings -->
+    <string name="emergency_number">Emergency number</string>
+    <string name="emergency_header">Emergency Contact Information</string>
+    <string name="emergency_number_enter">Emergency number:</string>
+    <string name="emergency_text">Text emergency number</string>
+    <string name="emergency_call">Call emergency number</string>
+    <string name="emergency_summary_off">Emergency calling is off.</string>
+    <string name="emergency_summary_on">Call the specified emergency number.</string>
+    <string name="emergency_text_summary_off">Emergency text is off.</string>
+    <string name="emergency_text_summary_on">Will text the specified emergency number with a message and location.</string>
+    <!-- Location and custom text message strings -->
+
+    <string name="custom_msg_header">Custom message settings</string>
+    <string name="custom_message_enable">Custom text message</string>
+    <string name="custom_message_enter">Custom Message </string>
+    <string name="custom_message_not_set">Empty</string>
+    <string name="custom_message_explain">Set a custom message that will be sent to the recipient in case of emergency</string>
+    <string name="geo_location_enable">Attach location</string>
+    <string name="geo_location_enable_explain">Send a google location link along with your message</string>
+    <!-- Other settings strings -->
+    <string name="other_header">Other</string>
+    <string name="enable_sound_switch">Enable sound</string>
+    <string name="enable_sound_switch_explain">Turn on sound when detecting drunkness</string>
+    <string name="selct_profile">Select personal profile</string>
+    <string name="detecting">Detecting...</string>
+    <string name="current_state">Current State :</string>
+    <string name="drunk_detection">Drunk Detection</string>
+
+</resources>
