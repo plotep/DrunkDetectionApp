@@ -18,4 +18,8 @@ The app has an animation to showcase the state change, as well as an option to t
 <p align="center">
   <img src="https://github.com/plotep/DrunkDetectionApp/blob/main/DrunkDetection/gitimages/demonstration.gif" />
 </p>
+
 ### Authors
+
+#[Pawel Bielinski](https://github.com/plotep)
+#[Jamie Grant](https://github.com/James-C-G)
